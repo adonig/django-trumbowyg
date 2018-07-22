@@ -19,7 +19,7 @@ Overriding for: Django Admin, Django Suit.
 }
 
 .trumbowyg-editor.trumbowyg-reset-css ul {
-    list-style: disc;
+    list-style: disc !important;
 }
 
 .trumbowyg-modal-box label {
