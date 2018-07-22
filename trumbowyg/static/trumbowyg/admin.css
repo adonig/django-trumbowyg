@@ -13,8 +13,13 @@ Overriding for: Django Admin, Django Suit.
     padding: 0 !important;
 }
 
-.trumbowyg-editor.trumbowyg-reset-css p, .trumbowyg-editor.trumbowyg-reset-css blockquote {
+.trumbowyg-editor.trumbowyg-reset-css p,
+.trumbowyg-editor.trumbowyg-reset-css blockquote {
     padding: 0 !important;
+}
+
+.trumbowyg-editor.trumbowyg-reset-css ul {
+    list-style: disc;
 }
 
 .trumbowyg-modal-box label {
@@ -23,7 +28,6 @@ Overriding for: Django Admin, Django Suit.
     width: auto;
 }
 
-.trumbowyg-button-pane li button.trumbowyg-video-button
-{
+.trumbowyg-button-pane li button.trumbowyg-video-button {
     background-position: 5px -520px
 }
